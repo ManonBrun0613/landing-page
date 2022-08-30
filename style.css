@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin:0%;
+}
 body {
     display: flex;
     flex-direction: column;
-    font-family: roboto;
+    font-family: "Roboto";
     justify-content: space-between;
+    flex:1;
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: space-around;
+    gap: 18px;
 }
 
 a {
@@ -28,9 +36,12 @@ a {
 }
 
 .subtitle {
-    font-size:24px;
-    font-weight:extra-bold;
+    font-size:36px;
+    font-weight:bolder;
     color: #1F2937;
+    padding: 18px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -39,7 +50,6 @@ a {
     flex-direction: column;
     background-color: #E5E7EB;
     color: #1F2937;
-    
 }
 
 .footer, .logo, .links, .maintitle, button, img{
@@ -60,6 +70,7 @@ button {
     border-radius: 8px;
     width:100px;
     height:48px;
+    font-size: 16px;
 }
 
 .header {
@@ -74,6 +85,7 @@ button {
 
 .logo {
     font-size: 24px;
+
 }
 
 .sign-up-section {
@@ -82,28 +94,36 @@ button {
     align-items: center;
     justify-content: space-around;
     border-radius: 8px;
-    margin: auto;
-    padding:8px;
+    margin: 28px 350px;
+    padding:32px 28px;
+    color:#F9FAF8;
+}
+
+.title-signup {
+    font-weight: 800;
+    font-size: 20px;
 }
 
 .title {
     display: flex;
-    padding:88px;
+    padding: 88px;    
 }
 
 .placeholder img{
     background-color: gray;
-    padding: 58px 180px;
+    padding: 70px 300px;
+    margin: 28px;    
 }
 
 .left-title {
     display: flex;
     flex-direction: column;
-    
+    padding: 28px;
+    gap: 12px;
 }
 
 .quote  {
-    padding: 80px 80px 24px;
+    padding: 100px 260px 24px;
     font-size: 36px;
     font-style: italic;
 }
@@ -113,10 +133,54 @@ button {
     font-size: 28px;
     font-weight: bold;
     margin-left: auto;
-    padding: 0px  80px 80px;
+    padding: 0px  260px 100px;
 }
 
 .signup-left {
     display: flex;
     flex-direction: column;
+}
+
+.footer {
+    justify-content: center;
+    padding:18px;
+}
+
+.upper-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 88px;
+}
+
+.logo {
+    font-weight: 800;
+}
+
+
+.illustrations img {
+    padding: 60px 60px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+}
+
+ li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+p {
+    width:100px;
+    height: 70px;
+    color:#1F2937
+}
+
+.illustrations ul{
+    align-items: center;
+    justify-content: center;
+    gap: 26px;
+    padding-bottom: 28px;
 }
